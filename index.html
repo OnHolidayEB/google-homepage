@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+
+    }
+
+    header{
+        font-size: 13px;
+        font-weight: 100;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    p{
+        margin-right: 10px;
+    }
+
+    .header-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .header-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 15px;
+    }
+
+    .sign-in{
+        width: 75px;
+        background-color: #4386f9;
+        border: none;
+        padding: 8px 12px 8px 12px;
+        color: white;
+        font-weight: 700;
+        border-radius: 2px;
+        
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .logo{
+        width: 272px;
+        height: 92px;
+    }
+    
+    .search{
+        margin-top: 25px;
+    }
+
+    .search-input{
+        border-style:solid;
+        padding: 15px 450px 15px 20px;
+        border-radius: 50px;
+        border-color: rgb(226, 221, 221);
+        border-width:.5px ;
+        outline: none;
+    }
+
+   .search-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        
+    }
+
+    .search-btn{
+        border: none;
+        margin-right: 5px;
+        height: 36px;
+        min-width: 54px;
+        padding: 0 16px;
+        border-radius: 4px;
+        color: #5F6368;
+        background-color: #f2f2f2;
+    }
+    
+    .footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background-color: #f2f2f2;
+        color:#5F6368;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-color: rgb(235, 232, 232);
+        border-width: 2px;
+        border-style: solid;
+        
+
+    }
+
+    .footer-left{
+        display:flex;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+
+    .footer-right{
+        display: flex;
+        flex-direction: row;
+        margin-right: 15px;
+        
+    }
+
+    h5{
+        font-weight: 300;
+        margin-right: 15px;
+        padding: 10px 5px 10px 0;
+        
+    }
+
+</style>
+
+
+<body>
+    <header>
+        <div class="header-left">
+            <p>About</p>
+            <p>Store</p>
+        </div>
+        <div class="header-right">
+            <p>Gmail</p>
+            <p>Images</p>
+            <button class="sign-in">Sign in</button>
+        </div>
+    </header>
+
+    <div class="hero">
+    <img
+        class="logo"
+        src="https://web.archive.org/web/20191130235109im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        />
+
+    <form class="search">
+        <input
+                class="search-input"
+                type="text"
+                >
+        <div class="search-buttons">
+            <button class="search-btn">
+            Google Search
+            </button>
+            <button class="search-btn">
+            I'm Feeling Lucky
+            </button>
+                
+
+
+        </div>
+
+    </form>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <h5>Advertising</h5>
+            <h5>Business</h5>
+            <h5>How Search Works</h5>
+        </div>
+        <div class="footer-right">
+            <h5>Privacy</h5>
+            <h5>Terms</h5>
+            <h5>Updates</h5>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
